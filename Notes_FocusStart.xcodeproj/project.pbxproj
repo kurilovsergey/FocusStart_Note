@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B486072603BE530092428C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B486062603BE530092428C /* Note.swift */; };
 		27EFEFFB2601336B003ABE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFEFFA2601336B003ABE51 /* AppDelegate.swift */; };
 		27EFEFFD2601336B003ABE51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFEFFC2601336B003ABE51 /* SceneDelegate.swift */; };
-		27EFEFFF2601336B003ABE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFEFFE2601336B003ABE51 /* ViewController.swift */; };
+		27EFEFFF2601336B003ABE51 /* NoteDatailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFEFFE2601336B003ABE51 /* NoteDatailVC.swift */; };
 		27EFF0022601336B003ABE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EFF0002601336B003ABE51 /* Main.storyboard */; };
 		27EFF0042601336C003ABE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EFF0032601336C003ABE51 /* Assets.xcassets */; };
 		27EFF0072601336C003ABE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EFF0052601336C003ABE51 /* LaunchScreen.storyboard */; };
 		27EFF0122601336D003ABE51 /* Notes_FocusStartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFF0112601336D003ABE51 /* Notes_FocusStartTests.swift */; };
 		27EFF01D2601336D003ABE51 /* Notes_FocusStartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFF01C2601336D003ABE51 /* Notes_FocusStartUITests.swift */; };
+		27EFF02E260140AC003ABE51 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFF02D260140AC003ABE51 /* NoteCell.swift */; };
+		27EFF033260140CF003ABE51 /* NoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFF032260140CF003ABE51 /* NoteTableView.swift */; };
+		27EFF03C26014A78003ABE51 /* NoteAppCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27EFF03A26014A78003ABE51 /* NoteAppCoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27B486062603BE530092428C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		27EFEFF72601336B003ABE51 /* Notes_FocusStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes_FocusStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EFEFFA2601336B003ABE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27EFEFFC2601336B003ABE51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27EFEFFE2601336B003ABE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27EFEFFE2601336B003ABE51 /* NoteDatailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDatailVC.swift; sourceTree = "<group>"; };
 		27EFF0012601336B003ABE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27EFF0032601336C003ABE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27EFF0062601336C003ABE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		27EFF0182601336D003ABE51 /* Notes_FocusStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Notes_FocusStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EFF01C2601336D003ABE51 /* Notes_FocusStartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_FocusStartUITests.swift; sourceTree = "<group>"; };
 		27EFF01E2601336D003ABE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EFF02D260140AC003ABE51 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		27EFF032260140CF003ABE51 /* NoteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableView.swift; sourceTree = "<group>"; };
+		27EFF03B26014A78003ABE51 /* NoteCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteCoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,12 @@
 			children = (
 				27EFEFFA2601336B003ABE51 /* AppDelegate.swift */,
 				27EFEFFC2601336B003ABE51 /* SceneDelegate.swift */,
-				27EFEFFE2601336B003ABE51 /* ViewController.swift */,
+				27EFEFFE2601336B003ABE51 /* NoteDatailVC.swift */,
+				27EFF03A26014A78003ABE51 /* NoteAppCoreData.xcdatamodeld */,
 				27EFF0002601336B003ABE51 /* Main.storyboard */,
+				27EFF02D260140AC003ABE51 /* NoteCell.swift */,
+				27EFF032260140CF003ABE51 /* NoteTableView.swift */,
+				27B486062603BE530092428C /* Note.swift */,
 				27EFF0032601336C003ABE51 /* Assets.xcassets */,
 				27EFF0052601336C003ABE51 /* LaunchScreen.storyboard */,
 				27EFF0082601336C003ABE51 /* Info.plist */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27EFEFFF2601336B003ABE51 /* ViewController.swift in Sources */,
+				27EFEFFF2601336B003ABE51 /* NoteDatailVC.swift in Sources */,
 				27EFEFFB2601336B003ABE51 /* AppDelegate.swift in Sources */,
+				27B486072603BE530092428C /* Note.swift in Sources */,
 				27EFEFFD2601336B003ABE51 /* SceneDelegate.swift in Sources */,
+				27EFF033260140CF003ABE51 /* NoteTableView.swift in Sources */,
+				27EFF03C26014A78003ABE51 /* NoteAppCoreData.xcdatamodeld in Sources */,
+				27EFF02E260140AC003ABE51 /* NoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +603,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27EFF03A26014A78003ABE51 /* NoteAppCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27EFF03B26014A78003ABE51 /* NoteCoreData.xcdatamodel */,
+			);
+			currentVersion = 27EFF03B26014A78003ABE51 /* NoteCoreData.xcdatamodel */;
+			path = NoteAppCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 27EFEFEF2601336B003ABE51 /* Project object */;
 }

@@ -10,7 +10,7 @@ class NoteDetailVC: UIViewController
     //@IBOutlet weak var titleTF: UITextField!
     //@IBOutlet weak var DescTV: UITextView!
  
-   
+   //
  
     @IBOutlet weak var TITLE_TF: UITextField!
     @IBOutlet weak var DESCTV: UITextView!

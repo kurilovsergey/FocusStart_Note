@@ -15,3 +15,5 @@
 • Возможность редактирования любой заметки из списка.
 • Удаление заметок
 • Также сохранять все заметки между сеансами.
+
+![Image alt](https://github.com/kurilovsergey/FocusStart_Note/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20-%202021-03-19%20at%2017.53.17.png)
